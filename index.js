@@ -33,3 +33,26 @@ function multiply(num1, num2){
 };
 
 console.log(multiply(2,5));
+
+function add(num1, num2){
+    if(num1 != num2){
+    return num1+num2;    
+    }else{
+    (num1 === num2)
+    return (num1+num2)*3;
+    }
+    
+  }
+console.log(add(4,4));
+
+
+
+
+
+
+
+
+
+
+
+
