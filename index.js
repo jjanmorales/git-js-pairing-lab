@@ -11,3 +11,12 @@ for(let i = 3; i < 101; i+=3){
 }
 }
 multiplesOfThree()
+
+function multiplesOfThreeOrFive(){
+    for( let i = 3; i < 101; i++){
+        if( i % 3 === 0 || i % 5 === 0){
+            console.log(i)
+        }
+    }
+}
+multiplesOfThreeOrFive();
